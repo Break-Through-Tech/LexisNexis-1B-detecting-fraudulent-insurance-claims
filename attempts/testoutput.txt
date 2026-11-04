@@ -1,0 +1,218 @@
+  Month  WeekOfMonth  DayOfWeek    Make AccidentArea DayOfWeekClaimed MonthClaimed  WeekOfMonthClaimed     Sex MaritalStatus  Age          Fault            PolicyType VehicleCategory     VehiclePrice  FraudFound_P  PolicyNumber  RepNumber  Deductible  DriverRating Days_Policy_Accident Days_Policy_Claim PastNumberOfClaims AgeOfVehicle AgeOfPolicyHolder PoliceReportFiled WitnessPresent AgentType NumberOfSuppliments AddressChange_Claim NumberOfCars  Year  BasePolicy
+0   Dec            5  Wednesday   Honda        Urban          Tuesday          Jan                   1  Female        Single   21  Policy Holder     Sport - Liability           Sport  more than 69000             0             1         12         300             1         more than 30      more than 30               none      3 years          26 to 30                No             No  External                none              1 year       3 to 4  1994   Liability
+1   Jan            3  Wednesday   Honda        Urban           Monday          Jan                   4    Male        Single   34  Policy Holder     Sport - Collision           Sport  more than 69000             0             2         15         400             4         more than 30      more than 30               none      6 years          31 to 35               Yes             No  External                none           no change    1 vehicle  1994   Collision
+2   Oct            5     Friday   Honda        Urban         Thursday          Nov                   2    Male       Married   47  Policy Holder     Sport - Collision           Sport  more than 69000             0             3          7         400             3         more than 30      more than 30                  1      7 years          41 to 50                No             No  External                none           no change    1 vehicle  1994   Collision
+3   Jun            2   Saturday  Toyota        Rural           Friday          Jul                   1    Male       Married   65    Third Party     Sedan - Liability           Sport   20000 to 29000             0             4          4         400             2         more than 30      more than 30                  1  more than 7          51 to 65               Yes             No  External         more than 5           no change    1 vehicle  1994   Liability
+4   Jan            5     Monday   Honda        Urban          Tuesday          Feb                   2  Female        Single   27    Third Party     Sport - Collision           Sport  more than 69000             0             5          3         400             1         more than 30      more than 30               none      5 years          31 to 35                No             No  External                none           no change    1 vehicle  1994   Collision
+5   Oct            4     Friday   Honda        Urban        Wednesday          Nov                   1    Male        Single   20    Third Party     Sport - Collision           Sport  more than 69000             0             6         12         400             3         more than 30      more than 30               none      5 years          21 to 25                No             No  External              3 to 5           no change    1 vehicle  1994   Collision
+6   Feb            1   Saturday   Honda        Urban           Monday          Feb                   3    Male       Married   36    Third Party     Sport - Collision           Sport  more than 69000             0             7         14         400             1         more than 30      more than 30                  1      7 years          36 to 40                No             No  External              1 to 2           no change    1 vehicle  1994   Collision
+7   Nov            1     Friday   Honda        Urban          Tuesday          Mar                   4    Male        Single    0  Policy Holder     Sport - Collision           Sport  more than 69000             0             8          1         400             4         more than 30      more than 30                  1          new          16 to 17                No             No  External                none           no change    1 vehicle  1994   Collision
+8   Dec            4   Saturday   Honda        Urban        Wednesday          Dec                   5    Male        Single   30  Policy Holder     Sport - Collision           Sport  more than 69000             0             9          7         400             4         more than 30      more than 30               none      6 years          31 to 35                No            Yes  External              3 to 5           no change    1 vehicle  1994   Collision
+9   Apr            3    Tuesday    Ford        Urban        Wednesday          Apr                   3    Male       Married   42  Policy Holder  Utility - All Perils         Utility  more than 69000             0            10          7         400             1         more than 30      more than 30             2 to 4  more than 7          36 to 40                No             No  External              3 to 5           no change    1 vehicle  1994  All PerilsColumn: Month
+       Fraud_Rate  Claim_Count
+Month                         
+Mar      0.075000         1360
+Aug      0.074534         1127
+May      0.068764         1367
+Feb      0.064771         1266
+Apr      0.062500         1280
+Jan      0.061658         1411
+Sep      0.061290         1240
+Jun      0.060560         1321
+Oct      0.053640         1305
+Dec      0.048249         1285
+Jul      0.047733         1257
+Nov      0.038301         1201
+Column: DayOfWeek
+           Fraud_Rate  Claim_Count
+DayOfWeek                         
+Sunday       0.069914         1745
+Saturday     0.066599         1982
+Friday       0.062986         2445
+Monday       0.061162         2616
+Thursday     0.055223         2173
+Wednesday    0.053265         2159
+Tuesday      0.052174         2300
+Column: Make
+           Fraud_Rate  Claim_Count
+Make                              
+Mecedes      0.250000            4
+Accura       0.125000          472
+Saturn       0.103448           58
+Saab         0.101852          108
+Ford         0.073333          450
+Mercury      0.072289           83
+BMW          0.066667           15
+Honda        0.063906         2801
+Toyota       0.059596         3121
+Chevrolet    0.055919         1681
+Pontiac      0.055512         3837
+Mazda        0.052251         2354
+Nisson       0.033333           30
+VW           0.028269          283
+Dodge        0.018349          109
+Column: AccidentArea
+              Fraud_Rate  Claim_Count
+AccidentArea                         
+Rural           0.083229         1598
+Urban           0.057155        13822
+Column: DayOfWeekClaimed
+                  Fraud_Rate  Claim_Count
+DayOfWeekClaimed                         
+Saturday            0.078740          127
+Friday              0.065679         2497
+Wednesday           0.063707         2951
+Tuesday             0.058667         3375
+Sunday              0.057692           52
+Monday              0.057493         3757
+Thursday            0.054135         2660
+0                   0.000000            1
+Column: MonthClaimed
+              Fraud_Rate  Claim_Count
+MonthClaimed                         
+Aug             0.081705         1126
+May             0.072289         1411
+Mar             0.071958         1348
+Apr             0.064516         1271
+Jan             0.063624         1446
+Sep             0.062802         1242
+Feb             0.060606         1287
+Jun             0.060325         1293
+Oct             0.054518         1339
+Jul             0.045714         1225
+Dec             0.042757         1146
+Nov             0.035798         1285
+0               0.000000            1
+Column: Sex
+        Fraud_Rate  Claim_Count
+Sex                            
+Male      0.062923        13000
+Female    0.043388         2420
+Column: MaritalStatus
+               Fraud_Rate  Claim_Count
+MaritalStatus                         
+Widow            0.085714           35
+Married          0.060141        10625
+Single           0.059351         4684
+Divorced         0.039474           76
+Column: Fault
+               Fraud_Rate  Claim_Count
+Fault                                 
+Policy Holder    0.078896        11230
+Third Party      0.008831         4190
+Column: PolicyType
+                      Fraud_Rate  Claim_Count
+PolicyType                                   
+Sport - Collision       0.137931          348
+Utility - All Perils    0.120588          340
+Sedan - All Perils      0.100563         4087
+Utility - Collision     0.100000           30
+Sedan - Collision       0.068768         5584
+Sedan - Liability       0.007219         4987
+Sport - All Perils      0.000000           22
+Sport - Liability       0.000000            1
+Utility - Liability     0.000000           21
+Column: VehicleCategory
+                 Fraud_Rate  Claim_Count
+VehicleCategory                         
+Utility            0.112532          391
+Sedan              0.082205         9671
+Sport              0.015677         5358
+Column: VehiclePrice
+                 Fraud_Rate  Claim_Count
+VehiclePrice                            
+less than 20000    0.093978         1096
+more than 69000    0.087338         2164
+40000 to 59000     0.067245          461
+20000 to 29000     0.052110         8079
+30000 to 39000     0.049533         3533
+60000 to 69000     0.045977           87
+Column: Days_Policy_Accident
+                      Fraud_Rate  Claim_Count
+Days_Policy_Accident                         
+none                    0.163636           55
+8 to 15                 0.090909           55
+1 to 7                  0.071429           14
+15 to 30                0.061224           49
+more than 30            0.059356        15247
+Column: Days_Policy_Claim
+                   Fraud_Rate  Claim_Count
+Days_Policy_Claim                         
+8 to 15              0.142857           21
+15 to 30             0.107143           56
+more than 30         0.059575        15342
+none                 0.000000            1
+Column: PastNumberOfClaims
+                    Fraud_Rate  Claim_Count
+PastNumberOfClaims                         
+none                  0.077895         4352
+1                     0.062133         3573
+2 to 4                0.053601         5485
+more than 4           0.033831         2010
+Column: AgeOfVehicle
+              Fraud_Rate  Claim_Count
+AgeOfVehicle                         
+4 years         0.091703          229
+new             0.085791          373
+3 years         0.085526          152
+5 years         0.070007         1357
+6 years         0.066125         3448
+7 years         0.055967         5807
+more than 7     0.051746         3981
+2 years         0.041096           73
+Column: AgeOfPolicyHolder
+                   Fraud_Rate  Claim_Count
+AgeOfPolicyHolder                         
+21 to 25             0.148148          108
+18 to 20             0.133333           15
+16 to 17             0.096875          320
+31 to 35             0.064366         5593
+over 65              0.059055          508
+36 to 40             0.058620         4043
+26 to 30             0.053834          613
+41 to 50             0.050919         2828
+51 to 65             0.050287         1392
+Column: PoliceReportFiled
+                   Fraud_Rate  Claim_Count
+PoliceReportFiled                         
+No                   0.060499        14992
+Yes                  0.037383          428
+Column: WitnessPresent
+                Fraud_Rate  Claim_Count
+WitnessPresent                         
+No                0.060001        15333
+Yes               0.034483           87
+Column: AgentType
+           Fraud_Rate  Claim_Count
+AgentType                         
+External     0.060544        15179
+Internal     0.016598          241
+Column: NumberOfSuppliments
+                     Fraud_Rate  Claim_Count
+NumberOfSuppliments                         
+none                   0.066979         7047
+1 to 2                 0.063881         2489
+more than 5            0.050427         3867
+3 to 5                 0.048091         2017
+Column: AddressChange_Claim
+                     Fraud_Rate  Claim_Count
+AddressChange_Claim                         
+under 6 months         0.750000            4
+2 to 3 years           0.175258          291
+1 year                 0.064706          170
+no change              0.057596        14324
+4 to 8 years           0.052298          631
+Column: NumberOfCars
+              Fraud_Rate  Claim_Count
+NumberOfCars                         
+3 to 4          0.077957          372
+2 vehicles      0.060649          709
+1 vehicle       0.059374        14316
+5 to 8          0.047619           21
+more than 8     0.000000            2
+Column: BasePolicy
+            Fraud_Rate  Claim_Count
+BasePolicy                         
+All Perils    0.101596         4449
+Collision     0.072962         5962
+Liability     0.007187         5009
