@@ -1,4 +1,4 @@
-# AI Studio Challenge Project Title
+# Lexis Nexis Team 1-B
 
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
@@ -10,11 +10,11 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Emanuel Messele   | @EmanuelMessele | Data exploration, visualization, model selection, model training          |
+| Mohammad Ikbal  | @     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Linh Le     | @  | Data preprocessing, feature engineering, data validation                 |
+| Mukundan Thanigaivalen     | @      | Model selection, hyperparameter tuning, model training and optimization  |
+| Princy Maheshwari     | @  | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
@@ -33,12 +33,14 @@
 
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
-
+1. Clone the main repo and make sure you have Python 3.1.2 (minimum) installed along with these other libraries.
+   1. pandas
+   2. numpy
+   3. matplotlib
+   4. seaborn
+   5. display (IPython.display)
+   6. sklearn (preprocessing, linear model(Logistic Regression Model), and metrics)
+2. Once all libraries are imported and the correct python version is installed, run each cell one by one in the "notebooks/Fraud_Detection.ipynb notebook to understand the process of the code and obtain the final model along with metrics.
 ---
 
 ## 🏗️ **Project Overview**
@@ -48,6 +50,12 @@
 - How this project is connected to the Break Through Tech AI Program
 - Your AI Studio host company and the project objective and scope
 - The real-world significance of the problem and the potential impact of your work
+
+Through the Breakthrough Tech AI Program, the team was introduced to Lexis Nexis and the case of building a model to detect fraud insurance claims. From the beginning of studying foundational concepts of exploratory data analysis, to finally selecting a model that beats the naive baseline.
+
+The object scope for this project was to create a baseline model and then a find a better model using precision, recall, F1, and PR-AUC on the minority (fraud) class. A successful outcome by December: a working, interpretable model that clearly beats a naive baseline on recall/precision trade-off, with a short explanation of which features drive risk.
+
+Fraud insurance claims can cost a company tons of money. Creating a model that can help negate the number of these claims can save a company money while helping them allocate money to those who are actaully in need of it.
 
 ---
 
