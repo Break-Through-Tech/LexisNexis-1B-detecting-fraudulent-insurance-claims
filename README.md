@@ -12,7 +12,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Emanuel Messele   | @EmanuelMessele | Data exploration, visualization, model selection, model training          |
 | Mohammad Ikbal  | @mikbal06     | Data collection, exploratory data analysis (EDA), feature engineering, model evaluation, model selection  |
-| Linh Le     | @  | Data preprocessing, feature engineering, data validation                 |
+| Linh Le     | @nhims24  | Data preprocessing, feature engineering, data validation                 |
 | Mukundan Thanigaivalen     | @      | Model selection, hyperparameter tuning, model training and optimization  |
 | Princy Maheshwari     | @  | Model evaluation, performance analysis, results interpretation           |
 
